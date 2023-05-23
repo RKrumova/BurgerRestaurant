@@ -1,4 +1,13 @@
 package kitchen;
 
-public class ClassicBurger {
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+
+@RequiredArgsConstructor
+@Getter
+public class ClassicBurger implements Burger{
+    @Override
+    public void prepare() {
+
+    }
 }
