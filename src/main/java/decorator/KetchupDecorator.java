@@ -1,7 +1,6 @@
 package decorator;
 
 import kitchen.Burger;
-
 public class KetchupDecorator extends BurgerDecorator {
     public KetchupDecorator(Burger burger) {
         super(burger);
@@ -10,6 +9,6 @@ public class KetchupDecorator extends BurgerDecorator {
     @Override
     public void prepare() {
         super.prepare();
-        // Add ketchup to the burger
+        System.out.println("Adding ketchup on the burger");
     }
 }

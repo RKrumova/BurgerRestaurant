@@ -10,6 +10,6 @@ public class GarlicDecorator extends BurgerDecorator {
     @Override
     public void prepare() {
         super.prepare();
-        // Add ketchup to the burger
+        System.out.println("Adding garlic on the burger");
     }
 }

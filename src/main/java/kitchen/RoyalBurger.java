@@ -8,6 +8,6 @@ public class RoyalBurger  implements Burger{
 
     @Override
     public void prepare() {
-        //
+        System.out.println("Making Royal Burger");
     }
 }
