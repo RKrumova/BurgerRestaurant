@@ -87,7 +87,3 @@ The **Decorator** design pattern is used to add sauces to the burgers. The `Burg
 ```
 
 Please note that the class diagram is a simplified representation of the design. Actual implementation details and method signatures are omitted for brevity.
-
-You can use this information to
-
- create a Markdown file for GitHub or Visual Studio.
